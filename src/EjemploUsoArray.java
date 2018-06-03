@@ -1,4 +1,28 @@
+/* LISTAS (ArrayList, LinkedList, Vector, CopyOnWriteArrayList)
+ * La colección más básica de Java. También es la más usada por los programadores que no han
+ * investigado el framework de colecciones a fondo por hacernos pensar que se trata de una especie
+ * de array supermejorado ya que hace su trabajo y es fácil de entender. Sin embargo, hemos de
+ * procurar asegurarnos de que cuando vas a usar una lista es porque realmente te hace falta, no 
+ * porque no conoces el resto. La diferencia de rendimiento puede ser enorme y cuando digo enorme
+ * me refiero a superior a un 500% en según qué operaciones.
+ * 
+ * VENTAJAS:
+ * .- Acceso aleatorio.
+ * .- Están ordenadas (Podemos usar Colections.sort() para ordenar los elementos siguiendo el
+ *    criterio que queramos).
+ * .- Podemos añadir/eliminar elementos sin ninguna restricción.
+ * .- Tienen un iterado especial ListIterator que permite modificar la lista en cualquier dirección-
+ * .- Sig
+ * uen la notación de los arrays, por lo que son fáciles de comprender.
+ * DESVENTAJAS:
+ * .- Bajo rendimiento en operaciones especializadas respecto a otras operaciones.
+ */
 
+/* ArrayList
+ * Muy rápida accediendo a elementos, relativamente rápida agregando elementos si su capacidad
+ * inicial y de crecimiento están bien configuradas. Es la lista que deberías usar casi siempre.
+ * 
+ */
 
 import java.util.ArrayList;
 
